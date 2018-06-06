@@ -15,19 +15,19 @@ $(document).ready(function() {
       function weatherBackground(whatIsIt) {
         whatIsIt = whatIsIt.toLowerCase();
         if (whatIsIt == "clouds") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/2102/2102010-1280x800-[DesktopNexus.com].jpg?st=6j9p5NrowhgAznMh2EsoAA&e=1484097092')");
+          $("body").css("background-image", "url('https://gdurl.com/N9WR')");
         } else if (whatIsIt == "clear") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/1422/1422592-1280x800-[DesktopNexus.com].jpg?st=6nXDuXS-aeoYoiQ4ZOOASg&e=1484097823')");
+          $("body").css("background-image", "url('https://gdurl.com/G6qS')");
         } else if (whatIsIt == "rain") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/563/563956-1280x800-[DesktopNexus.com].jpg?st=oe4HPIx2gftr5A6mn8ShOw&e=1484133712')");
+          $("body").css("background-image", "url('https://gdurl.com/Umy5')");
         } else if (whatIsIt == "snow") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/1931/1931342-1280x800-[DesktopNexus.com].jpg?st=JInOo6NNDRPfSKJkS3Fuvg&e=1484097606')");
+          $("body").css("background-image", "url('https://gdurl.com/keGW')");
         } else if (whatIsIt == "thunderstorm") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/1654/1654840-1280x800-[DesktopNexus.com].jpg?st=VIoYJHCQPDms5erppleKAA&e=1484097677')");
-        } else if (whatIsIt == "dizzle") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/563/563956-1280x800-[DesktopNexus.com].jpg?st=oe4HPIx2gftr5A6mn8ShOw&e=1484133712')");
+          $("body").css("background-image", "url('https://gdurl.com/meHF')");
+        } else if (whatIsIt == "drizzle") {
+          $("body").css("background-image", "url('https://gdurl.com/d_WC')");
         } else if (whatIsIt == "mist") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/528/528959-1280x800-[DesktopNexus.com].jpg?st=zrQTouTo0iG3nDfLpSeYJQ&e=1484133773')");
+          $("body").css("background-image", "url('https://gdurl.com/oAf9')");
         }
       }
       weatherBackground(currentWeather);
@@ -68,19 +68,19 @@ $(document).ready(function() {
       function weatherBackground(whatIsIt) {
         whatIsIt = whatIsIt.toLowerCase();
         if (whatIsIt == "clouds") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/2102/2102010-1280x800-[DesktopNexus.com].jpg?st=6j9p5NrowhgAznMh2EsoAA&e=1484097092')");
+          $("body").css("background-image", "url('https://gdurl.com/N9WR')");
         } else if (whatIsIt == "clear") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/1422/1422592-1280x800-[DesktopNexus.com].jpg?st=6nXDuXS-aeoYoiQ4ZOOASg&e=1484097823')");
+          $("body").css("background-image", "url('https://gdurl.com/G6qS')");
         } else if (whatIsIt == "rain") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/563/563956-1280x800-[DesktopNexus.com].jpg?st=oe4HPIx2gftr5A6mn8ShOw&e=1484133712')");
+          $("body").css("background-image", "url('https://gdurl.com/Umy5')");
         } else if (whatIsIt == "snow") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/1931/1931342-1280x800-[DesktopNexus.com].jpg?st=JInOo6NNDRPfSKJkS3Fuvg&e=1484097606')");
+          $("body").css("background-image", "url('https://gdurl.com/keGW')");
         } else if (whatIsIt == "thunderstorm") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/1654/1654840-1280x800-[DesktopNexus.com].jpg?st=VIoYJHCQPDms5erppleKAA&e=1484097677')");
-        } else if (whatIsIt == "dizzle") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/563/563956-1280x800-[DesktopNexus.com].jpg?st=oe4HPIx2gftr5A6mn8ShOw&e=1484133712')");
+          $("body").css("background-image", "url('https://gdurl.com/meHF')");
+        } else if (whatIsIt == "drizzle") {
+          $("body").css("background-image", "url('https://gdurl.com/d_WC')");
         } else if (whatIsIt == "mist") {
-          $("body").css("background-image", "url('https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/528/528959-1280x800-[DesktopNexus.com].jpg?st=zrQTouTo0iG3nDfLpSeYJQ&e=1484133773')");
+          $("body").css("background-image", "url('https://gdurl.com/oAf9')");
         }
       }
       weatherBackground(currentWeather);
