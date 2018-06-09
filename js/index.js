@@ -1,6 +1,12 @@
 
 
 $(document).ready(function() {
+  $body = $("body");
+
+$(document).on({
+    ajaxStart: function() { $body.addClass("loading");    },
+     ajaxStop: function() { $body.removeClass("loading"); }    
+});
   //////begin initial execution
   $.getJSON("https://api.openweathermap.org/data/2.5/weather?zip=23139,us&APPID=2c3ea1a7f2c335edf2e3683d525a4445", function(json) {
 
@@ -33,11 +39,11 @@ $(document).ready(function() {
       weatherBackground(currentWeather);
       var currentTemp = Math.floor(json["main"]["temp"]);
 
-      $("#currentTemp").html(celTemp);
+      $("#currentTemp").html(fahTemp);
       var celTemp = currentTemp - 273;
       var fahTemp = 1.8 * (currentTemp - 273) + 32;
-      $("#currentTemp").html(celTemp);
-
+      $("#currentTemp").html(fahTemp);
+      
       $("#scale").on("click", function() {
         if ($("#scale").html() == "C") {
           $("#currentTemp").html(fahTemp);
@@ -51,6 +57,13 @@ $(document).ready(function() {
     });
 ////////end the initial execution
   
+$body = $("body");
+
+$(document).on({
+    ajaxStart: function() { $body.addClass("loading");    },
+     ajaxStop: function() { $body.removeClass("loading"); }    
+});
+
   //if search is made, execute all of this
   $("#getMessage").on("click", function() {
     var zipCode = $('#zipEnter').val();
@@ -87,12 +100,13 @@ $(document).ready(function() {
       var currentTemp = Math.floor(json["main"]["temp"]);
 
       
+      $("#currentTemp").html(fahTemp);
       var celTemp = currentTemp - 273;
       var fahTemp = 1.8 * (currentTemp - 273) + 32;
-      $("#currentTemp").html(celTemp);
-
+      $("#currentTemp").html(fahTemp);
+      $("#scale").html('F');
       $("#scale").on("click", function() {
-       if ($("#scale").html() == "C") {
+        if ($("#scale").html() == "C") {
           $("#currentTemp").html(fahTemp);
           $("#scale").html('F');
         } else {
@@ -100,6 +114,8 @@ $(document).ready(function() {
           $("#scale").text("C");
         }
       });
+      
     });
   });
+  
 });
